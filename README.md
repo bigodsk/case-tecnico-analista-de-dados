@@ -7,18 +7,16 @@ Análise exploratória completa de dados de varejo para a empresa fictícia **WY
 ## Estrutura do Repositório
 
 ```
-├── analise_wyz_prime.ipynb     # Notebook principal com toda a análise
+├── docs/
+│   └── analise_wyz_prime.ipynb     # Notebook principal com toda a análise
 ├── data/
-│   ├── WYZ Prime Commerce.xlsx # Base de dados original (4 abas)
-│   ├── pbi_sales_clean.csv     # Vendas limpas para Power BI
+│   ├── WYZ Prime Commerce.xlsx     # Base de dados original (4 abas)
+│   ├── pbi_sales_clean.csv         # Vendas limpas para Power BI
 │   ├── pbi_clientes_inativos.csv
 │   ├── pbi_produto_ano.csv
 │   ├── pbi_hl_calendario.csv
 │   └── pbi_rfm_clientes.csv
-├── figures/                    # Gráficos gerados pelo notebook (23 figuras)
-└── docs/
-    └── analise_case_wyz_prime.md   # Análise narrativa com respostas às 10 questões
-    
+└── figures/                        # Gráficos gerados pelo notebook (23 figuras)
 ```
 
 ---
@@ -57,23 +55,10 @@ A base contém dados de **2021 a 2025** de uma rede de varejo com 3 filiais (A, 
 pip install pandas numpy matplotlib seaborn scipy openpyxl
 
 # Executar o notebook
-jupyter notebook analise_wyz_prime.ipynb
+jupyter notebook docs/analise_wyz_prime.ipynb
 ```
 
-> O notebook já vem executado com todas as saídas e figuras embutidas. Para re-executar do zero, coloque o arquivo `WYZ Prime Commerce.xlsx` no mesmo diretório do notebook (ou ajuste o caminho na célula de carregamento de dados).
-
----
-
-## Dashboard Power BI
-
-Os arquivos CSV em `data/` são as fontes prontas para importação no Power BI Desktop. Consulte `docs/guia_powerbi.md` para instruções completas, incluindo:
-
-- Modelo de dados (5 tabelas, relacionamentos)
-- 21 medidas DAX com código completo
-- Estrutura das 5 páginas do dashboard
-- Tema JSON customizado
-
-O arquivo `docs/dashboard_mockup.html` é um protótipo interativo — basta abrir no navegador para visualizar o layout proposto.
+> O notebook já vem executado com todas as saídas e figuras embutidas. Para re-executar do zero, ajuste o caminho do arquivo `WYZ Prime Commerce.xlsx` na célula de carregamento de dados.
 
 ---
 
@@ -97,4 +82,3 @@ O arquivo `docs/dashboard_mockup.html` é um protótipo interativo — basta abr
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![pandas](https://img.shields.io/badge/pandas-2.x-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
