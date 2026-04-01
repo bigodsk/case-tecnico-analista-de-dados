@@ -4,11 +4,12 @@ insert_cells.py
 fix_paths.py
 fix_notebook.py
 
-# Docs na raiz (versões limpas estão em docs/)
+# Docs de apresentação (não versionados)
 /analise_case_wyz_prime.md
 /roteiro_apresentacao.md
 /guia_powerbi.md
 /dashboard_mockup.html
+/docs/
 
 # Figuras na raiz (estão em figures/)
 /fig_*.png
