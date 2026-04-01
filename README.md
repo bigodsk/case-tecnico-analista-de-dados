@@ -17,10 +17,8 @@ Análise exploratória completa de dados de varejo para a empresa fictícia **WY
 │   └── pbi_rfm_clientes.csv
 ├── figures/                    # Gráficos gerados pelo notebook (23 figuras)
 └── docs/
-    ├── analise_case_wyz_prime.md   # Análise narrativa com respostas às 10 questões
-    ├── guia_powerbi.md             # Guia completo para construção do dashboard Power BI
-    ├── roteiro_apresentacao.md     # Roteiro de apresentação com storytelling de dados
-    └── dashboard_mockup.html       # Mockup interativo do dashboard (abrir no navegador)
+    └── analise_case_wyz_prime.md   # Análise narrativa com respostas às 10 questões
+    
 ```
 
 ---
