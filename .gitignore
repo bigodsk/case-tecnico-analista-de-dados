@@ -1,0 +1,32 @@
+# Case original (não versionado)
+*.pdf
+insert_cells.py
+fix_paths.py
+fix_notebook.py
+
+# Docs na raiz (versões limpas estão em docs/)
+/analise_case_wyz_prime.md
+/roteiro_apresentacao.md
+/guia_powerbi.md
+/dashboard_mockup.html
+
+# Figuras na raiz (estão em figures/)
+/fig_*.png
+
+# CSVs e Excel na raiz (estão em data/)
+/pbi_*.csv
+/WYZ Prime Commerce.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.jupyter/
