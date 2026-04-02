@@ -161,7 +161,7 @@ Análise combinada de ticket médio, margem de lucro e volume de vendas **(acumu
 20% de 475 = **95 clientes** a reativar
 
 A meta é **viável e conservadora** com base em benchmarks de mercado:
-- Taxa de reativação de e-commerce B2C no varejo varia de **15% a 25%** segundo estudos do setor ([Klaviyo Email Benchmark Report 2024](https://www.klaviyo.com/reports/email-benchmarks), [Bain & Company — Customer Loyalty Studies](https://www.bain.com/insights/topics/customer-loyalty/))
+- Taxa de reativação no varejo varia de **10% a 30%**, com conversão média de ~10,3% em campanhas automatizadas segundo dados agregados do setor ([Opensend / MailMend — Win-Back Campaign Success Rate Statistics 2025](https://www.opensend.com/post/win-back-campaign-success-rate-statistics); [Klaviyo — Benchmark Report 2025](https://www.klaviyo.com/marketing-resources/enterprise-benchmarks-report))
 - Para uma base de clientes que já tem histórico de compra na empresa (não são leads frios), a taxa de 20% é atingível com uma campanha bem segmentada
 
 **Distribuição dos inativos por última compra:**
@@ -277,10 +277,12 @@ Implementar alerta automático quando qualquer categoria cair abaixo de 6,5 por 
 
 | Fonte | Dado utilizado | Link |
 |-------|---------------|------|
-| Banco Central do Brasil — Relatório de Pagamentos 2024 | Adoção de carteira virtual no varejo físico (28%) e e-commerce (42%); participação de cartão de crédito (38%) | [bcb.gov.br/publicacoes/relatoriopagamentos](https://www.bcb.gov.br/publicacoes/relatoriopagamentos) |
-| Klaviyo — Email Benchmark Report 2024 | Taxa de reativação de clientes inativos: 15%–25% | [klaviyo.com/reports/email-benchmarks](https://www.klaviyo.com/reports/email-benchmarks) |
-| Bain & Company — Customer Loyalty Studies | Taxa de reativação moderada: 20%; taxa de retenção no varejo: ~35% | [bain.com/insights/topics/customer-loyalty](https://www.bain.com/insights/topics/customer-loyalty/) |
-| SBVC / IBRC — Índice de Satisfação do Consumidor BR 2024 | Rating médio varejo físico: 6,8 / e-commerce: 7,1 (escala 1–10) | [sbvc.com.br](https://sbvc.com.br) |
-| ABEMF — Pesquisa de Fidelização no Varejo BR 2024 | Participação de members no varejo físico: 45%; e-commerce: 52% | [abemf.com.br](https://abemf.com.br) |
-| NielsenIQ / CNDL — Comportamento de Consumo BR 2024 | Ticket médio varejo físico BR: ~R$250 (~USD 45); e-commerce: ~R$660 (~USD 120) | [cndl.org.br](https://cndl.org.br) |
-| ABComm / IBGE — Crescimento do Varejo BR 2024 | Crescimento e-commerce BR 2024: +12,2%; varejo físico: +5,8% | [abcomm.org](https://abcomm.org) |
+| ABComm / E-Commerce Brasil — Resultados 2024 | Crescimento e-commerce BR 2024: **+10,5%**; faturamento R$ 204,3 bi; ticket médio R$ 492,40 | [ecommercebrasil.com.br](https://www.ecommercebrasil.com.br/noticias/e-commerce-resultados-2024-brasil-abcomm) |
+| IBGE — Pesquisa Mensal de Comércio (PMC) 2024 | Crescimento varejo físico BR 2024: **+4,7%** (melhor resultado desde 2012) | [agenciadenoticias.ibge.gov.br](https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/42685-vendas-no-varejo-fecham-2024-com-alta-de-4-7) |
+| Febraban — Dados Anuais Pix 2024 | Pix: 63,8 bilhões de transações (+52% vs. 2023); principal método de pagamento do BR | [portal.febraban.org.br](https://portal.febraban.org.br/noticia/4290/pt-br/) |
+| BCB — Relatório Anual SPI 2024 | Pix: **24%** dos pagamentos no varejo físico (H1 2024) | [bcb.gov.br — Relatório SPI 2024 (PDF)](https://www.bcb.gov.br/content/estabilidadefinanceira/relatorios_SPI/relatorio_anual_spi_2024.pdf) |
+| FTI Consulting / Central do Varejo — Online Retail Report 2025 | Pix: **40%** das transações no e-commerce brasileiro | [centraldovarejo.com.br](https://centraldovarejo.com.br/pix-representa-40-nas-compras-online-e-impulsiona-varejo-online-aponta-pesquisa/) |
+| ABEMF — 7º Fórum de Fidelização (Q2 2024) | **316 milhões** de cadastros ativos em programas de fidelidade; 72% dos membros satisfeitos | [blog.abemf.com.br](https://blog.abemf.com.br/7o-forum-de-fidelizacao-marca-os-10-anos-da-abemf-e-aponta-a-forca-do-mercado-brasileiro/) |
+| SBVC / Pinion / Cielo — Satisfação do Consumidor no Varejo BR 2024 | Satisfação e-commerce/apps: **91%**; varejo físico: **89%** (nota: estudo usa %, não escala 1–10) | [revistavarejobrasil.com.br](https://www.revistavarejobrasil.com.br/formatos-de-varejo-online-tem-indices-mais-elevados-de-satisfacao-dos-clientes/) |
+| Opensend / MailMend — Win-Back Campaign Statistics 2025 | Taxa de reativação: **10%–30%**; conversão média de campanhas automatizadas: 10,34% | [opensend.com](https://www.opensend.com/post/win-back-campaign-success-rate-statistics) |
+| Klaviyo — Benchmark Report 2025 (AMER) | Benchmarks de fluxos de e-mail por tipo de campanha | [klaviyo.com](https://www.klaviyo.com/marketing-resources/enterprise-benchmarks-report) |
