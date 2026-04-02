@@ -8,7 +8,8 @@ Análise exploratória completa de dados de varejo para a empresa fictícia **WY
 
 ```
 ├── docs/
-│   └── analise_wyz_prime.ipynb     # Notebook principal com toda a análise
+│   ├── analise_wyz_prime.ipynb     # Notebook principal com toda a análise
+│   └── analise_wyz_prime.md        # Documento de texto com a análise - apoio para apresentação
 ├── data/
 │   ├── WYZ Prime Commerce.xlsx     # Base de dados original (4 abas)
 │   ├── pbi_sales_clean.csv         # Vendas limpas para Power BI
